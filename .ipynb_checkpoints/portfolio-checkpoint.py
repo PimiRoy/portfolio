@@ -34,12 +34,49 @@ with open("background.jpg", "rb") as img:
 """
 
 st.markdown(page_bg, unsafe_allow_html=True)
+st.markdown("""
+<style>
 
+.social-icons{
+    display:flex;
+    justify-content:flex-end;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.social-icons img{
+    width:40px;
+    height:40px;
+    transition:0.3s;
+}
+
+.social-icons img:hover{
+    transform:scale(1.15);
+}
+
+</style>
+""", unsafe_allow_html=True)
+def social_icons():
+    st.markdown("""
+    <div class="social-icons">
+
+        <a href="https://github.com/PimiRoy" target="_blank">
+            <img src="https://pngimg.com/uploads/github/github_PNG40.png">
+        </a>
+
+        <a href="https://www.linkedin.com/in/pimika7roy-data-analyst/" target="_blank">
+            <img src="https://www.pngall.com/wp-content/uploads/18/Linkedin-Logo-Black-Business-Icon-PNG-thumb.png">
+        </a>
+
+    </div>
+    """, unsafe_allow_html=True)
 # Tabs
 tab1, tab2, tab3, tab4 = st.tabs(["About", "Skills", "Projects", "Contact"])
 
 # ================= ABOUT TAB =================
 with tab1:
+    social_icons()
+
     col1, col2 = st.columns([1.4,1.2])
 
     with col1:
@@ -144,60 +181,11 @@ with tab1:
 
     </div>
     """, unsafe_allow_html=True)
-
-# ================= SOCIAL MEDIA ICONS =================
-st.markdown("""
-<style>
-.social-icons{
-    position:fixed;
-    top:127px;
-    right:100px;
-
-    display:flex !important;
-    flex-direction:row!important;
-
-    align-items:center;
-    gap:15px;
-    z-index:999999;
-    
-}
-
-.social-icons a{
-    display:block;
-}
-
-.social-icons img{
-    width:40px;
-    height:40px;
-    display:flex;
-    transition:0.3s;
-}
-
-.social-icons img:hover{
-    transform:scale(1.2);
-}
-</style>
-
-<div class="social-icons">
-<a href="https://github.com/PimiRoy" target="_blank">
-        <img src="https://pngimg.com/uploads/github/github_PNG40.png">
-    </a>
-
-<a href="https://www.linkedin.com/in/pimika7roy-data-analyst/" target="_blank">
-        <img src="https://www.pngall.com/wp-content/uploads/18/Linkedin-Logo-Black-Business-Icon-PNG-thumb.png">
-    </a>
-
-<a href="https://www.linkedin.com/in/pimika7roy-data-analyst/" target="_blank">
-        <img src="https://www.pngall.com/wp-content/uploads/18/Linkedin-Logo-Black-Business-Icon-PNG-thumb.png">
-    </a>
-
-</div>
-""", unsafe_allow_html=True)
-
-
-
-# ================= SKILLS TAB =================
+        
+ ================= SKILLS TAB =================
 with tab2:
+    social_icons()
+
     # ======= EDUCATION SECTION =======
     st.markdown("""
     <style>
@@ -547,6 +535,8 @@ with tab2:
         """, unsafe_allow_html=True)
 # ================= PROJECTS TAB =================
 with tab3:
+    social_icons()
+
     st.markdown("""
     <style>
     .project-card{
@@ -657,6 +647,8 @@ with tab3:
 
 # ================= CONTACT TAB =================
 with tab4:
+social_icons()
+
     st.title("Contact Me")
 
     col1, col2 = st.columns([1, 1])
