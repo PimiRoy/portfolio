@@ -40,6 +40,7 @@ st.markdown("""
     display:flex;
     justify-content:flex-end;
     gap:15px;
+    margin-top:-50px;
     margin-bottom:20px;
     
 }
