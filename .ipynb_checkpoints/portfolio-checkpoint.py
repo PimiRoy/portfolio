@@ -38,11 +38,13 @@ st.markdown("""
 <style>
 #======socialmedia======
 .social-icons{
+    position:absolute;
+    top:65px;
+    right:70px;
+
     display:flex;
-    justify-content:flex-end;
     gap:15px;
-    width:100%;
-    margin-bottom:30px;
+    z-index:999;
 }
 
 .social-icons img{
