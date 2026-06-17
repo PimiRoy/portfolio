@@ -28,7 +28,7 @@ with open("background.jpg", "rb") as img:
     }}
 
     [data-testid="stToolbar"]{{
-        right: 2rem;
+        right: 1rem;
     }}
     </style>
 """
