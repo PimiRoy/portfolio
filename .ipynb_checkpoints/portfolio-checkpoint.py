@@ -40,7 +40,7 @@ st.markdown("""
 .social-icons{
     position:absolute;
     top:65px;
-    right:70px;
+    left:70px;
 
     display:flex;
     gap:15px;
