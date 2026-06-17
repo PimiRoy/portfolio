@@ -36,12 +36,12 @@ with open("background.jpg", "rb") as img:
 st.markdown(page_bg, unsafe_allow_html=True)
 st.markdown("""
 <style>
-
+#======socialmedia======
 .social-icons{
     display:flex;
     justify-content:flex-end;
     gap:15px;
-    margin-bottom:50px;
+    margin-bottom:10px;
 }
 
 .social-icons img{
