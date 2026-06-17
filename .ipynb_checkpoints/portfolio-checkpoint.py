@@ -244,6 +244,7 @@ with tab2:
         
         .main-skill-box{
             background: rgba(255,255,255,0.05);
+            box-shadow:0px 8px 25px rgba(0,0,0,0.15);
             border-radius: 25px;
             padding: 30px;
             margin-top: 30px;
