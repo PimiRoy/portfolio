@@ -40,7 +40,7 @@ st.markdown("""
     display:flex;
     justify-content:flex-end;
     gap:15px;
-    margin-top:-40px;
+    margin-top:-60px;
     margin-right:20px;
     margin-bottom:20px;
     
