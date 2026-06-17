@@ -34,45 +34,7 @@ with open("background.jpg", "rb") as img:
 """
 
 st.markdown(page_bg, unsafe_allow_html=True)
-st.markdown("""
-<style>
-.social-icons{
-    display:flex;
-    justify-content:center;
-    gap:15px;
-    margin-top:-20px;
-    margin-right:20px;
-    margin-bottom:20px;
-    
-}
 
-
-.social-icons img{
-    width:40px;
-    height:40px;
-    transition:0.3s;
-}
-
-.social-icons img:hover{
-    transform:scale(1.15);
-}
-
-</style>
-""", unsafe_allow_html=True)
-def social_icons():
-    st.markdown("""
-    <div class="social-icons">
-
-    <a href="https://github.com/PimiRoy" target="_blank">
-            <img src="https://pngimg.com/uploads/github/github_PNG40.png">
-        </a>
-
-    <a href="https://www.linkedin.com/in/pimika7roy-data-analyst/" target="_blank">
-            <img src="https://www.pngall.com/wp-content/uploads/18/Linkedin-Logo-Black-Business-Icon-PNG-thumb.png">
-        </a>
-
-    </div>
-    """, unsafe_allow_html=True)
 # Tabs
 st.markdown("""
 <style>
