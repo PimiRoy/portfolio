@@ -647,7 +647,7 @@ with tab3:
 
 # ================= CONTACT TAB =================
 with tab4:
-social_icons()
+    social_icons()
 
     st.title("Contact Me")
 
