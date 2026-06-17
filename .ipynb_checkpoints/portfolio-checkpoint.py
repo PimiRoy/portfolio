@@ -8,54 +8,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# ================= SOCIAL MEDIA ICONS =================
-st.markdown("""
-<style>
-.social-icons{
-    position:fixed;
-    top:127px;
-    right:100px;
-
-    display:flex !important;
-    flex-direction:row!important;
-
-    align-items:center;
-    gap:15px;
-    z-index:999999;
-    
-}
-
-.social-icons a{
-    display:block;
-}
-
-.social-icons img{
-    width:40px;
-    height:40px;
-    display:flex;
-    transition:0.3s;
-}
-
-.social-icons img:hover{
-    transform:scale(1.2);
-}
-</style>
-
-<div class="social-icons">
-<a href="https://github.com/PimiRoy" target="_blank">
-        <img src="https://pngimg.com/uploads/github/github_PNG40.png">
-    </a>
-
-<a href="https://www.linkedin.com/in/pimika7roy-data-analyst/" target="_blank">
-        <img src="https://www.pngall.com/wp-content/uploads/18/Linkedin-Logo-Black-Business-Icon-PNG-thumb.png">
-    </a>
-
-<a href="https://www.linkedin.com/in/pimika7roy-data-analyst/" target="_blank">
-        <img src="https://www.pngall.com/wp-content/uploads/18/Linkedin-Logo-Black-Business-Icon-PNG-thumb.png">
-    </a>
-
-</div>
-""", unsafe_allow_html=True)
 
 # ================= BACKGROUND IMAGE =================
 with open("background.jpg", "rb") as img:
