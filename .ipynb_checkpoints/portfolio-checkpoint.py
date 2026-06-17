@@ -74,6 +74,14 @@ def social_icons():
     </div>
     """, unsafe_allow_html=True)
 # Tabs
+st.markdown("""
+<style>
+.stTabs [data-baseweb="tab-list"]{
+    justify-content:center;
+    gap:40px;
+}
+</style>
+""", unsafe_allow_html=True)
 tab1, tab2, tab3, tab4 = st.tabs(["About", "Skills", "Projects", "Contact"])
 
 # ================= ABOUT TAB =================
