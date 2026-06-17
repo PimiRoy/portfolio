@@ -54,8 +54,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["About", "Skills", "Projects", "Contact"])
 
 # ================= ABOUT TAB =================
 with tab1:
-    social_icons()
-
+    
     col1, col2 = st.columns([1.4,1.2])
 
     with col1:
@@ -163,9 +162,7 @@ with tab1:
         
  #================= SKILLS TAB =================
 with tab2:
-    social_icons()
-
-    # ======= EDUCATION SECTION =======
+ # ======= EDUCATION SECTION =======
     st.markdown("""
     <style>
     .education-box li{
@@ -514,7 +511,6 @@ with tab2:
         """, unsafe_allow_html=True)
 # ================= PROJECTS TAB =================
 with tab3:
-    social_icons()
 
     st.markdown("""
     <style>
@@ -626,8 +622,7 @@ with tab3:
 
 # ================= CONTACT TAB =================
 with tab4:
-    social_icons()
-
+    
     st.title("Contact Me")
 
     col1, col2 = st.columns([1, 1])
