@@ -80,6 +80,11 @@ st.markdown("""
     justify-content:center;
     gap:40px;
 }
+.stTabs [data-baseweb="tab"]{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px 25px;
+}
 </style>
 """, unsafe_allow_html=True)
 tab1, tab2, tab3, tab4 = st.tabs(["About", "Skills", "Projects", "Contact"])
