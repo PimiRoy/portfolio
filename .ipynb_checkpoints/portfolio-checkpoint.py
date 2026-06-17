@@ -41,7 +41,7 @@ st.markdown("""
     display:flex;
     justify-content:flex-end;
     gap:15px;
-    margin-bottom:10px;
+    margin-bottom:50px;
 }
 
 .social-icons img{
