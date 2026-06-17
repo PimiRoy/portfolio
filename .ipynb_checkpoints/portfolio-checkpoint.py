@@ -38,7 +38,7 @@ st.markdown("""
 <style>
 .social-icons{
     display:flex;
-    justify-content:flex-end;
+    justify-content:center;
     gap:15px;
     margin-top:-20px;
     margin-right:20px;
@@ -84,7 +84,7 @@ st.markdown("""
     font-size: 24px;
     font-weight: 700;
     padding: 12px 25px;
-    margin-top:-20px;
+   
 }
 </style>
 """, unsafe_allow_html=True)
