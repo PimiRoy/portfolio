@@ -84,6 +84,7 @@ st.markdown("""
     font-size: 24px;
     font-weight: 700;
     padding: 12px 25px;
+    margin-top:-20px;
 }
 </style>
 """, unsafe_allow_html=True)
