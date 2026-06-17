@@ -38,7 +38,7 @@ st.markdown("""
 <style>
 .social-icons{
     display:flex;
-    justify-content:flex-start;
+    justify-content:flex-end;
     gap:15px;
     margin-top:-50px;
     margin-right:20px;
