@@ -182,7 +182,7 @@ with tab1:
     </div>
     """, unsafe_allow_html=True)
         
- ================= SKILLS TAB =================
+ #================= SKILLS TAB =================
 with tab2:
     social_icons()
 
