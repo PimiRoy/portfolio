@@ -60,11 +60,11 @@ def social_icons():
     st.markdown("""
     <div class="social-icons">
 
-        <a href="https://github.com/PimiRoy" target="_blank">
+    <a href="https://github.com/PimiRoy" target="_blank">
             <img src="https://pngimg.com/uploads/github/github_PNG40.png">
         </a>
 
-        <a href="https://www.linkedin.com/in/pimika7roy-data-analyst/" target="_blank">
+    <a href="https://www.linkedin.com/in/pimika7roy-data-analyst/" target="_blank">
             <img src="https://www.pngall.com/wp-content/uploads/18/Linkedin-Logo-Black-Business-Icon-PNG-thumb.png">
         </a>
 
