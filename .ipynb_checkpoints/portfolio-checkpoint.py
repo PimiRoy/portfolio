@@ -371,9 +371,8 @@ with tab2:
                         3 Certificates
                     </div>
                     <div class="cert-menu">
-                        <a href="https://drive.google.com/file/d/1iYaLzG7E6aHi7Ma-HF_z-9d_6r1HxKSf/view?usp=drive_link" target="_blank">Python Programming Fundamentals</a>
-                        <a href="https://drive.google.com/file/d/1wbK8cAn9PSgACcvXSaIATnJsCyNRQj0E/view?usp=drive_link" target="_blank">NumPy And Statistical Analysis</a>
-                        <a href="https://drive.google.com/file/d/1pe5dE4JBgANUnkxgK5zJ83zySspVbNyu/view?usp=drive_link" target="_blank">Applied Data Analysis With Python</a>
+                        <a href="https://drive.google.com/file/d/1iYaLzG7E6aHi7Ma-HF_z-9d_6r1HxKSf/view?usp=drive_link" target="_blank">Python for Data Science</a>
+                        <a href="https://drive.google.com/file/d/1RUeKVI62DLLy_Zh2jDeeI470zS7aMdb3/view?usp=drive_link" target="_blank">Data Analysis with Python</a>
                     </div>
                 </div>
             </div>
