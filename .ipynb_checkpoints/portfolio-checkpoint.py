@@ -368,7 +368,7 @@ with tab2:
                     <div class="cert-badge">
                         <img src="https://cdn-icons-png.flaticon.com/512/1/1700.png"
                         style="width:25px;height:25px;vertical-align:middle;">
-                        3 Certificates
+                        2 Certificates
                     </div>
                     <div class="cert-menu">
                         <a href="https://drive.google.com/file/d/1iYaLzG7E6aHi7Ma-HF_z-9d_6r1HxKSf/view?usp=drive_link" target="_blank">Python for Data Science</a>
