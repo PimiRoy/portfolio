@@ -193,7 +193,7 @@ with tab2:
             <span class="institute">IT VEDANT, New Delhi</span>
             <span class="certificate">
             <a href="https://drive.google.com/your-certificate-link" target="_blank">
-            📜 View Certificate
+            Certificate
             </a>
             </span>
             <span class="year">2025-2026</span>
