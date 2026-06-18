@@ -473,8 +473,9 @@ with tab2:
         <div class="skill-card">
             <div class="skill-header">
                 <div class="skill-left">
-                    <img src="https://img.icons8.com/color/96/artificial-intelligence.png">
-                <div class="skill-name">Machine Learning</div>
+                <img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000">
+                    <div class="skill-name">SQL</div>
+                    
                 </div>
                 <div class="cert-dropdown">
                     <div class="cert-badge">
