@@ -472,7 +472,7 @@ with tab2:
                         Certificates
                     </div>
                     <div class="cert-menu">
-                        <a href="https://drive.google.com/file/d/1FHFCeiOJ8qmiIYHIPD4HR5zapQnYWRd1/view?usp=drive_link" target="_blank">Machine Learning Mastery</a>
+                        <a href="https://drive.google.com/file/d/1wMt9wKgFKWLZccwCvyIYfu1vMUt-8pLl/view?usp=drive_link" target="_blank">Machine Learning with Python</a>
                     </div>
                 </div>
             </div>
