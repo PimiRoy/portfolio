@@ -470,13 +470,12 @@ with tab2:
         </div>
         
         <!-- Machine Learning -->
-        <div class="skill-card">
+         <div class="skill-card">
             <div class="skill-header">
                 <div class="skill-left">
                     <img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000">
                     <div class="skill-name">SQL</div>
-                    
-                </div>
+                    </div>
                 <div class="cert-dropdown">
                     <div class="cert-badge">
                         <img src="https://cdn-icons-png.flaticon.com/512/1/1700.png"
