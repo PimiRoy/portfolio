@@ -192,13 +192,12 @@ with tab2:
             <span class="course">Data Science & Analytics with AI</span>
             <span class="institute">IT VEDANT, New Delhi</span>
             <span class="certificate">
-            <a href="https://drive.google.com/file/d/1QaernAw_pzJEwG0yQPWDztHDT6SVWSnm/view?usp=drive_link"_blank">
-            Certificate
-            </a>
+            <a href="IBM_CERTIFICATE_LINK" target="_blank">IBM</a> |
+            <a href="ITVEDANT_CERTIFICATE_LINK" target="_blank">ITVedant</a>
             </span>
             <span class="year">2025-2026</span>
-        </li>
-        <li>
+                </li>
+                <li>
             <span class="course">B.Com</span>
             <span class="institute">CCS University, Meerut</span>
             <span class="certificate">Degree</span>
