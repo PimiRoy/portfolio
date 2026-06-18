@@ -192,7 +192,7 @@ with tab2:
             <span class="course">Data Science & Analytics with AI</span>
             <span class="institute">IT VEDANT, New Delhi</span>
             <span class="certificate">
-            <a href="https://drive.google.com/your-certificate-link" target="_blank">
+            <a href="https://drive.google.com/file/d/1QaernAw_pzJEwG0yQPWDztHDT6SVWSnm/view?usp=drive_link"_blank">
             Certificate
             </a>
             </span>
