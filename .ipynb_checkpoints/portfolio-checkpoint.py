@@ -192,8 +192,8 @@ with tab2:
             <span class="course">Data Science & Analytics with AI</span>
             <span class="institute">IT VEDANT, New Delhi</span>
             <span class="certificate">
-            <a href="https://drive.google.com/file/d/1QaernAw_pzJEwG0yQPWDztHDT6SVWSnm/view?usp=drive_link" target="_blank">IBM</a>
-            <a href="https://drive.google.com/file/d/1dB8tjYX_-_CUIjh7CgRL_Ll6EIiQMvZu/view?usp=drive_link" target="_blank">ITVedant</a> |
+            <a href="https://drive.google.com/file/d/1QaernAw_pzJEwG0yQPWDztHDT6SVWSnm/view?usp=drive_link" target="_blank">IBM</a>|
+            <a href="https://drive.google.com/file/d/1dB8tjYX_-_CUIjh7CgRL_Ll6EIiQMvZu/view?usp=drive_link" target="_blank">ITVedant</a> 
             </span>
             <span class="year">2025-2026</span>
                 </li>
@@ -233,6 +233,19 @@ with tab2:
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
+        }
+        /* Tablet */
+        @media (max-width: 1000px){
+            .skills-container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        /* Mobile */
+        @media (max-width: 650px){
+            .skills-container{
+                grid-template-columns: 1fr;
+            }
         }
         
         .skill-card{
