@@ -474,7 +474,7 @@ with tab2:
             <div class="skill-header">
                 <div class="skill-left">
                     <img src="https://cdn-icons-png.flaticon.com/512/4616/4616734.png">
-                    <div class="skill-name">Machine Learning</div>
+                    <div class="skill-name">ML</div>
                     </div>
                 <div class="cert-dropdown">
                     <div class="cert-badge">
