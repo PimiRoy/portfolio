@@ -570,13 +570,14 @@ with tab3:
     """, unsafe_allow_html=True)
 
 def project_card(image, title, desc, tools, link):
-    if image:
-        st.image(image, use_container_width=True)
-
     st.markdown(f"""
     <div class="project-card">
+        <img src="{image}" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
+
         <h3 class="project-title">{title}</h3>
+
         <p class="project-desc">{desc}</p>
+
         <div style="display:flex;justify-content:space-between;align-items:center;">
             <span class="tool-tag">{tools}</span>
             <a href="{link}" target="_blank" class="view-btn">View Project</a>
@@ -590,25 +591,17 @@ col1, col2 = st.columns(2)
 
 with col1:
     project_card(
-        image="Supply Chain Dashboard.png",
+        image="https://raw.githubusercontent.com/PimiRoy/Supply-Chain-Power-BI/main/Supply%20Chain%20Dashboard.png",
         title="Supply Chain Dashboard",
         desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
         tools="Power BI",
         link="https://github.com/PimiRoy/Supply-Chain-Power-BI"
     )
 
-with col2:
-    project_card(
-        image="Sales Dashboard.png",
-        title="Sales Dashboard",
-        desc="Built a sales analytics dashboard to track revenue, profit and customer trends.",
-        tools="Power BI, Excel",
-        link="https://github.com/..."
-    )   
+
 # ================= CONTACT TAB =================
 with tab4:
-    
-    st.title("Contact Me")
+st.title("Contact Me")
 
     col1, col2 = st.columns([1, 1])
 
