@@ -598,6 +598,14 @@ with col1:
         link="https://github.com/PimiRoy/Supply-Chain-Power-BI"
     )
 
+with col2:
+    project_card(
+        image="https://picsum.photos/600/300",
+        title="Sales Dashboard",
+        desc="Built a sales analytics dashboard to track revenue, profit and customer trends.",
+        tools="Power BI, Excel",
+        link="https://github.com/PimiRoy"
+    )
 
 # ================= CONTACT TAB =================
 with tab4:
