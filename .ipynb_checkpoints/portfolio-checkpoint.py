@@ -586,7 +586,7 @@ with tab3:
 
     with col1:
         project_card(
-            image="C:\Users\asus\Pictures\Screenshots\Supply Chain Dashboard.png",
+            image="https://github.com/PimiRoy/pimika-roy-portfolio/blob/main/Supply%20Chain%20Dashboard.png",
             title="Supply Chain Dashboard",
             desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
             tools="Power BI",
