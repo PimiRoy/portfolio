@@ -74,6 +74,9 @@ with tab1:
         st.markdown('<div class="profile-img">', unsafe_allow_html=True)
         st.image("anime.jpg", width=450)
         st.markdown('</div>', unsafe_allow_html=True)
+        st.image(
+    "https://raw.githubusercontent.com/PimiRoy/Supply-Chain-Power-BI/main/Supply%20Chain%20Dashboard.png"
+)
 
      
 
