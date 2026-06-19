@@ -569,24 +569,24 @@ with tab3:
     </style>
     """, unsafe_allow_html=True)
 
-    def project_card(image, title, desc, tools, link):
-        st.markdown(f"""
-        <div class="project-card">
-            <img src="{image}" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
-            <h3 class="project-title">{title}</h3>
-            <p class="project-desc">{desc}</p>
-            <div style="display:flex;justify-content:space-between;align-items:center;">
-                <span class="tool-tag">{tools}</span>
-                <a href="{link}" target="_blank" class="view-btn">View Project</a>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+   def project_card(image, title, desc, tools, link):
+    st.image(image, use_container_width=True)
 
+    st.markdown(f"""
+    <div class="project-card">
+        <h3 class="project-title">{title}</h3>
+        <p class="project-desc">{desc}</p>
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span class="tool-tag">{tools}</span>
+            <a href="{link}" target="_blank" class="view-btn">View Project</a>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
     col1, col2 = st.columns(2)
 
     with col1:
         project_card(
-            image="image="Supply Chain Dashboard.png",
+            image="Supply Chain Dashboard.png",
             title="Supply Chain Dashboard",
             desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
             tools="Power BI",
