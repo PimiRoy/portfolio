@@ -594,7 +594,7 @@ with tab3:
         )
 
         project_card(
-            image="https://themewagon.com/wp-content/uploads/2021/11/purple-react-1.png",
+            image="Screenshot 2026-06-09 125236.png",
             title="Supply Chain Dashboard",
             desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
             tools="Power BI",
