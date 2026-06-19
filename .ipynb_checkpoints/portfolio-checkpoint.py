@@ -585,9 +585,8 @@ with tab3:
     col1, col2 = st.columns(2)
 
     with col1:
-    st.image("Supply Chain Dashboard.png")
         project_card(
-            image="image="Screenshot 2026-06-09 125236.png",
+            image="image="Supply Chain Dashboard.png",
             title="Supply Chain Dashboard",
             desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
             tools="Power BI",
