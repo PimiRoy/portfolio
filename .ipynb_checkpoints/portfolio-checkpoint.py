@@ -590,7 +590,7 @@ with tab3:
             title="Supply Chain Dashboard",
             desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
             tools="Power BI",
-            link="https://github.com/"
+            link="https://github.com/PimiRoy/Supply-Chain-Power-BI"
         )
 
         project_card(
