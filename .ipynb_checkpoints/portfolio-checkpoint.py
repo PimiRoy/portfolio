@@ -569,7 +569,7 @@ with tab3:
     </style>
     """, unsafe_allow_html=True)
 
-def project_card(image, title, desc, tools, link):
+    def project_card(image, title, desc, tools, link):
     st.markdown(f"""
     <div class="project-card">
         <img src="{image}" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
