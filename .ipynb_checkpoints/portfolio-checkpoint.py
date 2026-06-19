@@ -609,7 +609,7 @@ with col2:
 
 # ================= CONTACT TAB =================
 with tab4:
-st.title("Contact Me")
+    st.title("Contact Me")
 
     col1, col2 = st.columns([1, 1])
 
