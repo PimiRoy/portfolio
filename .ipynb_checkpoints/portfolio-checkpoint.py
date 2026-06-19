@@ -570,20 +570,20 @@ with tab3:
     """, unsafe_allow_html=True)
 
     def project_card(image, title, desc, tools, link):
-    st.markdown(f"""
-    <div class="project-card">
-        <img src="{image}" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
-
-        <h3 class="project-title">{title}</h3>
-
-        <p class="project-desc">{desc}</p>
-
-        <div style="display:flex;justify-content:space-between;align-items:center;">
-            <span class="tool-tag">{tools}</span>
-            <a href="{link}" target="_blank" class="view-btn">View Project</a>
+        st.markdown(f"""
+        <div class="project-card">
+            <img src="{image}" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
+    
+            <h3 class="project-title">{title}</h3>
+    
+            <p class="project-desc">{desc}</p>
+    
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+                <span class="tool-tag">{tools}</span>
+                <a href="{link}" target="_blank" class="view-btn">View Project</a>
+            </div>
         </div>
-    </div>
-    """, unsafe_allow_html=True)
+        """, unsafe_allow_html=True)
 
 
 # Function ke bahar
