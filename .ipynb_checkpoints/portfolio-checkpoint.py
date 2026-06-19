@@ -569,8 +569,9 @@ with tab3:
     </style>
     """, unsafe_allow_html=True)
 
-   def project_card(image, title, desc, tools, link):
-    st.image(image, use_container_width=True)
+def project_card(image, title, desc, tools, link):
+    if image:
+        st.image(image, use_container_width=True)
 
     st.markdown(f"""
     <div class="project-card">
@@ -582,58 +583,28 @@ with tab3:
         </div>
     </div>
     """, unsafe_allow_html=True)
-    col1, col2 = st.columns(2)
 
-    with col1:
-        project_card(
-            image="",
-            title="Supply Chain Dashboard",
-            desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
-            tools="Power BI",
-            link="https://github.com/PimiRoy/Supply-Chain-Power-BI"
-        )
 
-        project_card(
-            image="Screenshot 2026-06-09 125236.png",
-            title="Supply Chain Dashboard",
-            desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
-            tools="Power BI",
-            link="https://github.com/"
-        )
+# Function ke bahar
+col1, col2 = st.columns(2)
 
-        project_card(
-            image="https://themewagon.com/wp-content/uploads/2021/11/purple-react-1.png",
-            title="Supply Chain Dashboard",
-            desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
-            tools="Power BI",
-            link="https://github.com/"
-        )
+with col1:
+    project_card(
+        image="Supply Chain Dashboard.png",
+        title="Supply Chain Dashboard",
+        desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
+        tools="Power BI",
+        link="https://github.com/PimiRoy/Supply-Chain-Power-BI"
+    )
 
-    with col2:
-        project_card(
-            image="https://themewagon.com/wp-content/uploads/2021/11/purple-react-1.png",
-            title="Sales Dashboard",
-            desc="Built a sales analytics dashboard to track revenue, profit and customer trends.",
-            tools="Power BI, Excel",
-            link="https://github.com/"
-        )
-
-        project_card(
-            image="https://themewagon.com/wp-content/uploads/2021/11/purple-react-1.png",
-            title="Supply Chain Dashboard",
-            desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
-            tools="Power BI",
-            link="https://github.com/"
-        )
-
-        project_card(
-            image="https://themewagon.com/wp-content/uploads/2021/11/purple-react-1.png",
-            title="Supply Chain Dashboard",
-            desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
-            tools="Power BI",
-            link="https://github.com/"
-        )
-
+with col2:
+    project_card(
+        image="Sales Dashboard.png",
+        title="Sales Dashboard",
+        desc="Built a sales analytics dashboard to track revenue, profit and customer trends.",
+        tools="Power BI, Excel",
+        link="https://github.com/..."
+    )   
 # ================= CONTACT TAB =================
 with tab4:
     
