@@ -586,26 +586,26 @@ with tab3:
         """, unsafe_allow_html=True)
 
 
-# Function ke bahar
-col1, col2 = st.columns(2)
+    # Function ke bahar
+    col1, col2 = st.columns(2)
 
-with col1:
-    project_card(
-        image="https://raw.githubusercontent.com/PimiRoy/Supply-Chain-Power-BI/main/Supply%20Chain%20Dashboard.png",
-        title="Supply Chain Dashboard",
-        desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
-        tools="Power BI",
-        link="https://github.com/PimiRoy/Supply-Chain-Power-BI"
-    )
+    with col1:
+        project_card(
+            image="https://raw.githubusercontent.com/PimiRoy/Supply-Chain-Power-BI/main/Supply%20Chain%20Dashboard.png",
+            title="Supply Chain Dashboard",
+            desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
+            tools="Power BI",
+            link="https://github.com/PimiRoy/Supply-Chain-Power-BI"
+        )
 
-with col2:
-    project_card(
-        image="https://picsum.photos/600/300",
-        title="Sales Dashboard",
-        desc="Built a sales analytics dashboard to track revenue, profit and customer trends.",
-        tools="Power BI, Excel",
-        link="https://github.com/PimiRoy"
-    )
+    with col2:
+        project_card(
+            image="https://picsum.photos/600/300",
+            title="Sales Dashboard",
+            desc="Built a sales analytics dashboard to track revenue, profit and customer trends.",
+            tools="Power BI, Excel",
+            link="https://github.com/PimiRoy"
+        )
 
 # ================= CONTACT TAB =================
 with tab4:
