@@ -174,7 +174,7 @@ Skilled in SQL, Python, Power BI, and Excel with hands-on experience in data ana
 <div class="action-row">
 
 <a class="resume-btn"
-       href="https://drive.google.com/file/d/1ot7f3MN_KEHPM8GtBZqx7MKST5iOMflL/view?usp=drive_link"
+       href="https://drive.google.com/file/d/1jkYOIs85pQ4HWBAyxG0x1g7ZjuAEfF5L/view?usp=drive_link"
        target="_blank">
        Resume
     </a>
