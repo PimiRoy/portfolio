@@ -174,7 +174,7 @@ Skilled in SQL, Python, Power BI, and Excel with hands-on experience in data ana
 <div class="action-row">
 
 <a class="resume-btn"
-       href="https://drive.google.com/file/d/1jkYOIs85pQ4HWBAyxG0x1g7ZjuAEfF5L/view?usp=drive_link"
+       href="https://drive.google.com/file/d/1aPVP8tzXZnMpTBxIc66j372OcfXppXbA/view?usp=drive_link"
        target="_blank">
        Resume
     </a>
@@ -730,7 +730,7 @@ with tab4:
                 class="contact-icon">
 
         <div class="contact-text">
-                <a href="https://drive.google.com/file/d/1jkYOIs85pQ4HWBAyxG0x1g7ZjuAEfF5L/view?usp=drive_link"
+                <a href="https://drive.google.com/file/d/1aPVP8tzXZnMpTBxIc66j372OcfXppXbA/view?usp=drive_link"
                 target="_blank"
                 style="text-decoration:none; color:blue; font-size:22px;">
                 Pimika Roy Resume
