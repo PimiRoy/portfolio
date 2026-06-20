@@ -567,6 +567,7 @@ with tab2:
         """, unsafe_allow_html=True)
 # ================= PROJECTS TAB =================
 with tab3:
+    st.title("My Projects")
 
     st.markdown("""
     <style>
