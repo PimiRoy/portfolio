@@ -574,7 +574,7 @@ with tab3:
         <div class="project-card">
             <img src="{image}" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
     
-            <h3 class="project-title">{title}</h3>
+                <h3 class="project-title">{title}</h3>
     
             <p class="project-desc">{desc}</p>
     
