@@ -54,57 +54,73 @@ tab1, tab2, tab3, tab4 = st.tabs(["About", "Skills", "Projects", "Contact"])
 
 # ================= ABOUT TAB =================
 with tab1:
-    
-    col1, col2 = st.columns([1.4,1.2])
+
+    st.markdown("""
+    <style>
+    .card {
+    background: rgba(255,255,255,0.05);
+    padding: 15px 10px;          /* ↓ padding kam */
+    margin-top: 30px;       /* ↓ thoda niche */
+    border-radius: 20px;
+    box-shadow:0px 15px 25px rgba(0,0,0,0.15);
+    text-align: center;
+
+    height: 90%;          /* ↓ card size kam */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+
+    .card img {
+        width: 450px;
+        border-radius: 15px;
+        margin-top: -40px; 
+        
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    col1, col2 = st.columns([1.4, 1.2])
 
     with col1:
         st.markdown("""
-        <style>
-        .profile-img img {
-            width: 10px;
-            height: 0px;
-            margin-top: 10px;
-            margin-left: 200px;
-            object-fit: cover;
-            border: 10px solid #00FFFF;
-        }
-        </style>
+        <div class="card">
+            <img src="https://raw.githubusercontent.com/PimiRoy/pimika-roy-portfolio/main/ChatGPT%20Image%20Jun%205%2C%202026%2C%2006_23_38%20PM%20(1).png">
+        </div>
         """, unsafe_allow_html=True)
 
-        st.markdown('<div class="profile-img">', unsafe_allow_html=True)
-        st.image("anime.jpg", width=450)
-        st.markdown('</div>', unsafe_allow_html=True)
-        
-     
-
-    with col2:
+   
+with col2:
         st.markdown("""
     <style>
 
     .about-card{
-        background:none;
-        padding:40px;
+        background:rgba(255,255,255,0.05);
+        padding:15px 10px;
         border-radius:25px;
-        box-shadow:0px 8px 25px rgba(0,0,0,0.15);
+        box-shadow:0px 15px 25px rgba(0,0,0,0.15);
         margin-top:30px;
+        height:90%;
     }
 
     .about-title{
         font-size:28px;
-        color:#444;
+        color:#44;
     }
     
     .about-header{
     font-size:clamp(35px, 5vw, 65px);
     font-weight:bold;
-    color:black;
+    color:44;
     line-height:1.1;
     white-space: nowrap;
     }
 
     .about-subheader{
         font-size:30px;
-        color:#00BFFF;
+        color:#4;
         font-weight:600;
         margin-bottom:20px;
     }
@@ -112,52 +128,78 @@ with tab1:
     .about-write{
         font-size:22px;
         color:#333;
-        line-height:1.7;
+        line-height:1.5;
         margin-bottom:25px;
+    }
+    .action-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
     }
 
     .resume-btn{
-        background:#F8F8F8;
-        color:none!important;
-        padding:12px 30px;
-        border-radius:12px;
-        text-decoration:none;
-        font-size:20px;
-        font-weight:bold;
-        display:inline-block;
+    color:black !important;
+    padding:5px 20px;
+    text-decoration:none !important;
+    font-size:20px;
+    font-weight:bold;
+    display:inline-block;
     }
 
-    .resume-btn:hover{
-        
-    }
+    
+
+    
 
     </style>
-    <div class="about-card">
-
-    <div class="about-title">
-            Hey I'm
-        </div>
-
-    <div class="about-header">
-            Pimika Roy
-        </div>
-
-    <div class="about-subheader">
-            Data Analyst
-        </div>
-
-    <div class="about-write">
-            I love working with data and creating insights.<br><br>
-            My goal is to become a Data Analyst.
-        </div>
-
-    <a class="resume-btn"
-           href="https://drive.google.com/file/d/1ot7f3MN_KEHPM8GtBZqx7MKST5iOMflL/view?usp=drive_link"
-           target="_blank">
-           Resume
-        </a>
-
+<div class="about-card">
+<div class="about-title">
+    Hey I'm
     </div>
+
+<div class="about-header">
+    Pimika Roy
+    </div>
+
+<div class="about-subheader">
+    Aspiring Data Analyst
+    </div>
+
+<div class="about-write">
+    Passionate about data analytics and visualization.<br><br>
+
+Skilled in SQL, Python, Power BI, and Excel with hands-on experience in data analysis, dashboard development, and business insights.
+</div>
+
+<div class="action-row">
+
+<a class="resume-btn"
+       href="https://drive.google.com/file/d/1ot7f3MN_KEHPM8GtBZqx7MKST5iOMflL/view?usp=drive_link"
+       target="_blank">
+       Resume
+    </a>
+
+<a class="resume-btn"
+   href="https://mail.google.com/mail/?view=cm&fs=1&to=pimikaroy2@gmail.com"
+   target="_blank">
+   Gmail
+    </a>
+
+<a class="resume-btn"
+       href="https://www.linkedin.com/in/pimika7roy-data-analyst/"
+       target="_blank">
+       LinkedIn
+    </a>
+
+<a class="resume-btn"
+       href="https://github.com/PimiRoy"
+       target="_blank">
+       GitHub
+    </a>
+
+</div>
+
+
     """, unsafe_allow_html=True)
         
  #================= SKILLS TAB =================
@@ -572,16 +614,22 @@ with tab3:
     def project_card(image, title, desc, tools, link):
         st.markdown(f"""
         <div class="project-card">
-            <img src="{image}" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
-            <h3 class="project-title">{title}</h3>
-            <p class="project-desc">{desc}</p>
-    
-            <div style="display:flex;justify-content:space-between;align-items:center;">
-                <span class="tool-tag">{tools}</span>
-                <a href="{link}" target="_blank" class="view-btn">View Project</a>
-            </div>
+        <img src="{image}" style="
+            width:100%;
+            height:220px;
+            object-fit:Cover;
+            object-position:center;
+            border-radius:10px;
+        ">
+        <h3 class="project-title">{title}</h3>
+        <p class="project-desc">{desc}</p>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span class="tool-tag">{tools}</span>
+            <a href="{link}" target="_blank" class="view-btn">View Project</a>
         </div>
-        """, unsafe_allow_html=True)
+    </div>
+    """, unsafe_allow_html=True)
 
 
     # Function ke bahar
@@ -591,19 +639,43 @@ with tab3:
         project_card(
             image="https://raw.githubusercontent.com/PimiRoy/Supply-Chain-Power-BI/main/Supply%20Chain%20Dashboard.png",
             title="Supply Chain Dashboard",
-            desc="Developed an interactive dashboard for inventory, sales and logistics analysis.",
+            desc="Designed a Power BI dashboard providing insights into inventory management, sales performance, order fulfillment, and logistics operations.",
             tools="Power BI",
             link="https://github.com/PimiRoy/Supply-Chain-Power-BI"
         )
+        project_card(
+            image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+            title="AI Uses by Students",
+            desc="Analyzed student AI usage patterns, tool preferences, CGPA trends, and educational applications using SQL queries and data analysis.",
+            tools="SQL",
+            link="https://github.com/PimiRoy/AI-uses-by-Student-"
+        )
+        project_card(
+            image="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200",
+            title="Second-Hand Cars Sales Analysis",
+            desc="Built SQL queries to analyze second-hand car sales data, revealing insights into pricing, vehicle characteristics, and market demand.",
+            tools="SQL",
+            link="https://github.com/PimiRoy/second-hand-cars-sells"
+        )
+       
 
     with col2:
         project_card(
-            image="https://picsum.photos/600/300",
-            title="Sales Dashboard",
-            desc="Built a sales analytics dashboard to track revenue, profit and customer trends.",
-            tools="Power BI, Excel",
-            link="https://github.com/PimiRoy"
+            image="https://raw.githubusercontent.com/PimiRoy/-Gaming-Behavior-Mental-Health-Impact/refs/heads/main/AI%20Era.png",
+            title="Job in AI era dashboard",
+            desc="Developed an interactive Power BI dashboard analyzing AI job trends, salary distributions, top skills, and job market growth across different years.",
+            tools="Power BI",
+            link="https://github.com/PimiRoy/-Job-in-AI-Era-And--Impact"
         )
+        project_card(
+            image="https://images.unsplash.com/photo-1567157577867-05ccb1388e66?w=1200",
+            title="Mumbai House Pricing Analysis",
+            desc="Analyzed Mumbai housing data using Python to identify price trends, location-wise variations, and key factors influencing property prices.",
+            tools="Python | Pandas | Matplotlib",
+            link="https://github.com/PimiRoy/Mumbai-House-pricing-"
+        )
+       
+        
 
 # ================= CONTACT TAB =================
 with tab4:
@@ -657,7 +729,7 @@ with tab4:
                 class="contact-icon">
 
         <div class="contact-text">
-                <a href="https://drive.google.com/file/d/1ot7f3MN_KEHPM8GtBZqx7MKST5iOMflL/view?usp=drive_link"
+                <a href="https://drive.google.com/file/d/1jkYOIs85pQ4HWBAyxG0x1g7ZjuAEfF5L/view?usp=drive_link"
                 target="_blank"
                 style="text-decoration:none; color:blue; font-size:22px;">
                 Pimika Roy Resume
