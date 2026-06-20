@@ -4,7 +4,7 @@ import base64
 # ================= PAGE CONFIG =================
 st.set_page_config(
     page_title="Pimika Portfolio",
-    page_icon="logo.webp",
+    page_icon="page icon.avif",
     layout="wide"
 )
 
